@@ -32,7 +32,7 @@ function createCard(date, day, fase, games) {
 
 document.querySelector("#cards").innerHTML =
 
-    createCard("20/11", "domingo", "Fase de Grupo", createGame("Catar", "13:00", "Equador")) +
+    createCard("20/11", "domingo", "Fase de Grupo", createGame("catar", "13:00", "equador")) +
 
     createCard("21/11", "segunda", "Fase de Grupo", createGame("Inglaterra", "10:00", "Ira") +
         createGame("Senegal", "13:00", "Holanda") +
