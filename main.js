@@ -127,6 +127,6 @@ let bgdColors = ["yellow", "blue", "green"];
 let position = 0;
 
 btnChangeColor.addEventListener("click", function (event) {
-    position = (position + 1) % bgdColors.length;
+    position = (position + 2) % bgdColors.length;
     event.target.parentNode.parentNode.parentNode.className = bgdColors[position]
 })
