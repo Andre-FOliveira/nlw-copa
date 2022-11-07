@@ -65,10 +65,7 @@ body {
     width: 5rem;
     letter-spacing: 0.1rem;
     margin-right: 0;
-    position: fixed;
-
-
-
+    position: absolute;
     cursor: pointer;
 }
 
