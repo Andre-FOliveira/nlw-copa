@@ -12,6 +12,46 @@ figure {
 
 }
 
+.menu-lateral{
+   margin: 20px 20px;
+   font-size: 20px;   
+}
+
+#hexa{
+    background: transparent;
+    border: 1px solid var(--card-title-border-color);
+    border-radius: 20.5px;
+    box-shadow: 1px 1px 5px var(--card-color-primary);
+    color: #ECE8E7;
+    display: inline-block;
+    padding: 5px;
+    font-weight: bold;
+    height: 3rem;
+    width: 7rem;
+    letter-spacing: 0.1rem;
+    
+    position: absolute;
+    cursor: pointer;
+}
+
+
+#classificacao{
+    background: transparent;
+    border: 1px solid var(--card-title-border-color);
+    border-radius: 20.5px;
+    box-shadow: 1px 1px 5px var(--card-color-primary);
+    color: #ECE8E7;
+    display: inline-block;
+
+    font-weight: bold;
+    height: 3rem;
+    width: 7rem;
+    letter-spacing: 0.1rem;
+    margin-top: 70px;
+    position: absolute;
+    cursor: pointer;
+}
+
 
 
 
@@ -225,7 +265,7 @@ footer h4 {
     background-color: var(--card-bg-color);
     border: 2px solid var(--card-title-border-collor);
     border-radius: 6px;
-    font-size: 15px;
+    font-size: 10px;
     text-decoration: double;
     letter-spacing: 3px;
     word-spacing: 5px;
