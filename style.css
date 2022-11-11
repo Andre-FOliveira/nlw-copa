@@ -121,8 +121,7 @@ header {
 }
 
 header, h1{
-    margin-bottom: 63px;
-    text-align: center;
+   
     color: #7CF6FD;
     text-shadow: 5px 5px 5px #317AC7 ;
 }
