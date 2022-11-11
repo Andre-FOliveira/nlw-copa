@@ -124,8 +124,8 @@ header {
 
 h1{
    
-    color: #7CF6FD;
-    text-shadow: 5px 5px 5px #317AC7 ;
+    color: var(--card-color-primary);
+    text-shadow: 5px 5px 5px var(--card-title-border-color) ;
 }
 
 #cards {
