@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,27 +11,57 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
     <title>Rota do Hexa</title>
 </head>
+
 <body class="blue">
-    
-    <audio src="./src/videoplayback.m4a"
-    autoplay loop controls></audio>
-    
-    
 
     <header>
-        <img src="./src/2022.svg" alt="">
-        <h1>Jogos do Brasil</h1>
-    </header>
-  
-    <main id="cards"></main>
-        
-        </div>
-       
-        <script src="./main-hexa.js"></script>
 
-        
-        <footer>
-            <h4> <a href="https://www.linkedin.com/in/andr%C3%A9-oliveira-b1a90841" target="_blank">André Faustino</a> - Calendario de jogos da Copa do Mundo 2022 - Qatar</span></h4>
-        </footer>
+        <img src="./src/2022.svg" alt="">
+        <br>
+        <audio id="vol" src="./src/videoplayback.m4a" controls></audio>
+        <br>
+
+        <button class="bt_vol" onclick="Set_vol1()" type="button">
+            Volume Minimo
+        </button>
+
+        <button class="bt_vol" onclick="Set_vol2()" type="button">
+            Volume Maximo
+        </button>
+
+        <h1>Jogos do Brasil</h1>
+
+
+    </header>
+
+
+
+    <main id="cards"></main>
+
+    </div>
+
+    <script src="./main-hexa.js"></script>
+
+    <script>
+        var gfg = document.getElementById("vol");
+
+        function volume() {
+            alert(gfg.volume);
+        }
+
+        function Set_vol1() {
+            gfg.volume = 0.4;
+        }
+
+        function Set_vol2() {
+            gfg.volume = 0.8;
+        }
+    </script>
+
+    <footer>
+        <h4> <a href="https://www.linkedin.com/in/andr%C3%A9-oliveira-b1a90841" target="_blank">André Faustino</a> -
+            Calendario de jogos da Copa do Mundo 2022 - Qatar</span></h4>
+    </footer>
 </body>
+
 </html>
