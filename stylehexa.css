@@ -7,6 +7,18 @@
     
 }
 
+audio {
+    opacity: 50%;
+    margin-top: 10px;
+         
+}
+
+.bt_vol{
+    width: 120px;
+    border-radius: 10px;
+    opacity: 70%;
+}
+
 figure {
     width: 63px;
     color: white;
