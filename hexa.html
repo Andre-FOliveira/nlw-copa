@@ -18,16 +18,8 @@
 
         <img src="./src/2022.svg" alt="">
         <br>
-        <audio id="vol" src="./src/videoplayback.m4a" controls></audio>
-        <br>
-
-        <button class="bt_vol" onclick="Set_vol1()" type="button">
-            Volume Minimo
-        </button>
-
-        <button class="bt_vol" onclick="Set_vol2()" type="button">
-            Volume Maximo
-        </button>
+        <audio id="vol" src="./src/videoplayback.m4a" controls autoplay></audio>
+        
 
         <h1>Jogos do Brasil</h1>
 
@@ -42,20 +34,9 @@
 
     <script src="./main-hexa.js"></script>
 
-    <script>
-        var gfg = document.getElementById("vol");
-
-        function volume() {
-            alert(gfg.volume);
-        }
-
-        function Set_vol1() {
-            gfg.volume = 0.4;
-        }
-
-        function Set_vol2() {
-            gfg.volume = 0.8;
-        }
+     <script>
+         var vid = document.getElementById("vol");
+            vid.volume = 0.1;
     </script>
 
     <footer>
