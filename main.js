@@ -45,9 +45,9 @@ document.querySelector("#cards").innerHTML =
 
     createCard("20/11", "domingo", "Fase de Grupo", createGame("Catar", "13:00", "Equador"), createResultado("0  x  2"))+
 
-    createCard("21/11", "segunda", "Fase de Grupo", createGame("Inglaterra", "10:00", "Ira"), createResultado("3  x  0 ") +
-        createGame("Senegal", "13:00", "Holanda")+ createResultado("2  x  3 ") +
-        createGame("Usa", "16:00", "Gales")+ createResultado("3  x  0 ")) +
+    createCard("21/11", "segunda", "Fase de Grupo", createGame("Inglaterra", "10:00", "Ira"), createResultado("-  x  - ") +
+        createGame("Senegal", "13:00", "Holanda")+ createResultado("-  x  - ") +
+        createGame("Usa", "16:00", "Gales")+ createResultado("-  x  - ")) +
 
     createCard("22/11", "terça", "Fase de Grupo", createGame("Argentina", "07:00", "Arabia"), createResultado("-  x  - ") +
         createGame("Dinamarca", "10:00", "Tunisia") + createResultado("-  x  - ")+
