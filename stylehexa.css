@@ -159,6 +159,15 @@ header {
     color: #E1E1E6;
 
 }
+.pl{
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 125%;
+    letter-spacing: 20px;
+    margin-left: 20px;
+    text-align: center;
+    color: #E1E1E6;
+}
 
 .card h2:hover,
 .card h3:hover,
