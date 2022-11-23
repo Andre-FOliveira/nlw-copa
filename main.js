@@ -55,7 +55,7 @@ document.querySelector("#cards").innerHTML =
         createGame("Franca", "16:00", "Australia") + createResultado("4  x  1")) +
 
     createCard("23/11", "quarta", "Fase de Grupo", createGame("Marrocos", "07:00", "Croacia"), createResultado("0  x  0")+
-        createGame("Alemanha", "10:00", "Japao") + createResultado("-  x  - ")+
+        createGame("Alemanha", "10:00", "Japao") + createResultado("1  x  2")+
         createGame("Espanha", "13:00", "Costarica") + createResultado("-  x  - ")+
         createGame("Belga", "16:00", "Canada")+ createResultado("-  x  - ")) +
 
