@@ -51,7 +51,10 @@ document.querySelector("#cards").innerHTML =
         createGame("Brasil", "13:00", "Suica"), createResultado("1   x   0")) +
 
     createCard("02/12", "sexta", "Fase de Grupo",
-        createGame("Camaroes", "16:00", "Brasil"), createResultado("-   x   -"))
+        createGame("Camaroes", "16:00", "Brasil"), createResultado("1   x   0")) +
+    
+    createCard("05/12", "segunda", "Oitavas de Final", createGame("confirmar", "12:00", "confirmar"),createResultado("-  x  - ")+
+        createGame("Brasil", "16:00", "Korea")+createResultado("-  x  - ")) 
 
 /*  createCard("03/12", "sabado", "Oitavas de Final", createGame("confirmar", "12:00", "confirmar"), createResultado("-  x  - ")+
     createGame("confirmar", "16:00", "confirmar")+createResultado("-  x  - ")) +
@@ -60,7 +63,7 @@ document.querySelector("#cards").innerHTML =
     createGame("confirmar", "16:00", "confirmar")+createResultado("-  x  - ")) +
 
     createCard("05/12", "segunda", "Oitavas de Final", createGame("confirmar", "12:00", "confirmar"),createResultado("-  x  - ")+
-        createGame("confirmar", "16:00", "confirmar")+createResultado("-  x  - ")) +
+        createGame("Brasil", "16:00", "Korea")+createResultado("-  x  - ")) +
 
     createCard("06/12", "terça", "Oitavas de Final", createGame("confirmar", "12:00", "confirmar"),createResultado("-  x  - ")+
         createGame("confirmar", "16:00", "confirmar")+createResultado("-  x  - ")) +
