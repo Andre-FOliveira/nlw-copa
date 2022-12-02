@@ -102,8 +102,8 @@ document.querySelector("#cards").innerHTML =
 
     createCard("02/12", "sexta", "Fase de Grupo", createGame("Corea", "12:00", "Portugal"), createResultado("2  x  1")+
         createGame("Gana", "12:00", "Uruguai") +createResultado("0  x  2")+
-        createGame("Servia", "16:00", "Suica") +createResultado("-  x  - ")+
-        createGame("Camaroes", "16:00", "Brasil")+createResultado("-  x  - ")) +
+        createGame("Servia", "16:00", "Suica") +createResultado("2  x  3")+
+        createGame("Camaroes", "16:00", "Brasil")+createResultado("1  x  0")) +
 
     createCard("03/12", "sabado", "Oitavas de Final", createGame("Holanda", "12:00", "Usa"), createResultado("-  x  - ")+
         createGame("Argentina", "16:00", "Australia")+createResultado("-  x  -")) +
@@ -112,10 +112,10 @@ document.querySelector("#cards").innerHTML =
         createGame("Inglaterra", "16:00", "Senegal")+createResultado("-  x  - ")) +
 
     createCard("05/12", "segunda", "Oitavas de Final", createGame("Japao", "12:00", "Croacia"),createResultado("-  x  - ")+
-        createGame("confirmar", "16:00", "confirmar")+createResultado("-  x  - ")) +
+        createGame("Brasil", "16:00", "Korea")+createResultado("-  x  - ")) +
 
     createCard("06/12", "terça", "Oitavas de Final", createGame("Marrocos", "12:00", "Espanha"),createResultado("-  x  - ")+
-        createGame("confirmar", "16:00", "confirmar")+createResultado("-  x  - ")) +
+        createGame("Portugal", "16:00", "Suica")+createResultado("-  x  - ")) +
 
     createCard("09/12", "sexta", "Quartas de Final", createGame("confirmar", "12:00", "confirmar"),createResultado("-  x  - ")+
         createGame("confirmar", "16:00", "confirmar")+createResultado("-  x  - ")) +
