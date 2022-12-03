@@ -105,7 +105,7 @@ document.querySelector("#cards").innerHTML =
         createGame("Servia", "16:00", "Suica") +createResultado("2  x  3")+
         createGame("Camaroes", "16:00", "Brasil")+createResultado("1  x  0")) +
 
-    createCard("03/12", "sabado", "Oitavas de Final", createGame("Holanda", "12:00", "Usa"), createResultado("-  x  - ")+
+    createCard("03/12", "sabado", "Oitavas de Final", createGame("Holanda", "12:00", "Usa"), createResultado("3  x  1")+
         createGame("Argentina", "16:00", "Australia")+createResultado("-  x  -")) +
 
     createCard("04/12", "domingo", "Oitavas de Final", createGame("Franca", "12:00", "Polonia"),createResultado("-  x  - ")+
