@@ -123,14 +123,14 @@ document.querySelector("#cards").innerHTML =
     createCard("10/12", "sabado", "Quartas de Final", createGame("Marrocos", "12:00", "Portugal"),createResultado("1  x  0")+
         createGame("Franca", "16:00", "Inglaterra")+createResultado("2  x  1")) +
 
-    createCard("13/12", "terça", "Semifinal", createGame("Croacia", "16:00", "Argentina"),createResultado("-  x  - ")) +
+    createCard("13/12", "terça", "Semifinal", createGame("Croacia", "16:00", "Argentina"),createResultado("0  x  3")) +
 
     createCard("14/12", "quarta", "Semifinal", createGame("Marrocos", "16:00", "Franca"),createResultado("-  x  - ")) +
 
-    createCard("17/12", "sabado", "Disputa 3º Lugar", createGame("confirmar", "12:00", "confirmar"),createResultado("-  x  - ")) +
+    createCard("17/12", "sabado", "Disputa 3º Lugar", createGame("Croacia", "12:00", "confirmar"),createResultado("-  x  - ")) +
 
 
-    createCard("18/12", "domingo", "final", createGame("confirmar", "12:00", "confirmar"),createResultado("-  x  - "))
+    createCard("18/12", "domingo", "final", createGame("Argentina", "12:00", "confirmar"),createResultado("-  x  - "))
 
 const btnChangeColor = document.querySelector('#button-theme');
 
