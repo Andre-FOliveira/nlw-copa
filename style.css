@@ -18,7 +18,7 @@ figure {
    font-size: 20px;   
 }
 
-#hexa{
+#classificacao{
     background: transparent;
     border: 1px solid var(--card-title-border-color);
     border-radius: 20.5px;
@@ -36,7 +36,7 @@ figure {
 }
 
 
-#classificacao{
+#hexa{
     background: transparent;
     border: 1px solid var(--card-title-border-color);
     border-radius: 20.5px;
