@@ -20,7 +20,7 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 <br>
 
 <p align="center">
-  <img alt="Calendario da Copa" src=".src/capa.jpg" width="100%">
+  <img alt="Calendario da Copa" src="https://github.com/Andre-FOliveira/nlw-copa/blob/main/src/Capa.jpeg?raw=true">
 </p>
 
 ## 🚀 Tecnologias
@@ -34,9 +34,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Calendario da Copa é um projeto que mostra os jogos da Copa de 2022
-## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/SKT3rUlfHsv47VFYr9awnb?fuid=1164298566151111695). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+## 🔖 Site
+
+Você pode visualizar a pagina do projeto através [DESSE LINK](https://andre-foliveira.github.io/nlw-copa/).
 
 ## :memo: Licença
 
@@ -44,4 +45,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Feito com ♥ by Rocketseat 
